@@ -1,0 +1,75 @@
+ body {
+            margin: 0;
+            font-family: Arial, sans-serif;
+   
+        }
+
+
+* {box-sizing: border-box}
+body {font-family: Verdana, sans-serif; margin:0}
+.mySlides {display: none}
+img {vertical-align: middle;}
+        .navbar {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            background-color: #333;
+            padding: 15px;
+        }
+        .logo img {
+            height: 40px;
+        }
+        .nav-links {
+            display: flex;
+        }
+        .nav-links a {
+            color: white;
+            text-decoration: none;
+            padding: 10px 20px;
+            display: block;
+            font-size: 20px;
+        }
+        .nav-links a:hover {
+            background-color: #575757;
+        }
+        .menu-button {
+            display: none;
+            font-size: 30px;
+            color: white;
+            background: none;
+            border: none;
+            cursor: pointer;
+        }
+        /* Responsive Styles */
+        @media (max-width: 768px) {
+            .nav-links {
+                display: none;
+                flex-direction: column;
+                width: 100%;
+            }
+            .nav-links a {
+                width: 100%;
+                text-align: left;
+                padding: 10px 20px;
+            }
+            .menu-button {
+                display: block;
+            }
+        }
+
+
+
+
+/* 1ST SLIDE */
+
+.custom-column {
+  height: 300px;
+  width: 100%;
+  
+  background-color: green;
+  color: white; /* Optional: for better text visibility on green background */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+margin: 10px;
+}
